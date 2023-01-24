@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.png.png">
+    <title>LIFT & PRESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"><style>
+body{
+    background: url('/training-geeafaa323_1920.jpg');
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Bebas Neue', cursive;}
+.flex{
+    display: inline-block;
+}
+.left{
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    text-align: center;
+}
+.left img{
+    width: 70px;
+    height: 70px;
+    filter: invert(100%);
+}
+.left .logoName:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mid{
+    display: block;
+    width: 400px;
+    height: 50px;
+    border: none;
+    margin: auto;
+    background-color: rgb(248, 149, 113);
+    margin-top: 38px;
+    
+    
+}
+.mid ul{
+    display: flex;
+    gap: 20px;
+    padding-top: 8px;
+    
+}
+.mid ul li{
+    list-style: none;
+    
+    
+}
+.mid ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.mid ul li a:hover{
+    color: crimson;
+    text-decoration-line: underline;
+}
+.right{
+    /* border: 2px solid green; */
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.btn{
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;    
+}
+.btn:hover{
+    background-color: grey
+}
+.container{
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    margin: 70px 54px;
+    padding: 61px 80px;
+    width: 33%;
+    
+}
+h1{
+    text-decoration: underline;
+    margin: 10px 25px;
+}
+.form-group{
+    margin:  0px 3px;
+}
+.form-group input{
+    font-size: 20px;
+    margin: 3px;
+    text-align: center;
+    width: 238px;
+    padding: 3px;
+    border: 2px solid grey;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+    outline: none;
+}
+.container .btn{
+    width: 238px;
+    background-color: black;
+    color: white;
+}
+
+</style>
+<body>
+    <header class="header">
+        <div class="flex left">
+            <div class="logo">
+                <img src="/logo.png.png" alt="">
+                <div class="logoName">Fitness</div>
+            </div>
+        </div>
+        <div class="flex mid">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="flex right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym</h1>
+        <form action="noaction.php" class="action">
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
